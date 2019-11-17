@@ -1,4 +1,4 @@
-# Getting Started With Schematics
+# Schema
 
 This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
 
@@ -7,6 +7,7 @@ This repository is a basic Schematic implementation that serves as a starting po
 To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
 
 Check the documentation with
+
 ```bash
 schematics --help
 ```
@@ -25,4 +26,14 @@ npm publish
 ```
 
 That's it!
- 
+
+### Running the schema
+
+Go to your angular project and after installing the package run:
+
+```bash
+ng g schema:core
+ng g schema:token
+```
+
+That's it!
