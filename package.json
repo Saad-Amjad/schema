@@ -1,6 +1,6 @@
 {
   "name": "angular-schema",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A demo schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -10,7 +10,7 @@
     "schematics",
     "angular"
   ],
-  "author": "",
+  "author": "saad.amjad",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
