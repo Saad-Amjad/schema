@@ -1,4 +1,4 @@
-# Schema
+# angular-schema
 
 This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
 
@@ -12,20 +12,15 @@ Check the documentation with
 schematics --help
 ```
 
-### Unit Testing
+That's it!
 
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
+### Installing the package
 
-### Publishing
-
-To publish, simply do:
+Go to your angular project and after installing the package run:
 
 ```bash
-npm run build
-npm publish
+npm i angular-schema
 ```
-
-That's it!
 
 ### Running the schema
 
@@ -37,3 +32,24 @@ ng g schema:token
 ```
 
 That's it!
+
+## Github:
+
+https://github.com/Saad-Amjad/schema
+
+## Package:
+
+https://www.npmjs.com/package/angular-schema
+
+## License
+
+- License: MIT
+
+## Author
+
+- Author: saad.amjad
+
+## Keywords
+
+- Angular
+- Schematics
