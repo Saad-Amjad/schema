@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "schema",
+  "title": "Schema schema",
+  "type": "object"
+}
