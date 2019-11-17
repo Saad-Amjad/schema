@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "token": {
+      "description": "Generate Token Interceptor",
+      "factory": "./schema/index#core",
+      "schema": "./schema/schema.json"
+    },
+    "core": {
+      "description": "Generate Core Module",
+      "factory": "./schema/index#token",
+      "schema": "./schema/schema.json"
+    }
+  }
+}
