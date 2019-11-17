@@ -27,9 +27,11 @@ npm i angular-schema
 Go to your angular project and after installing the package run:
 
 ```bash
-ng g angular-schema:core
-ng g angular-schema:token
+ng g angular-schema:core  //it generates a core module
+ng g angular-schema:token //it generates an token interceptor
 ```
+
+If you already want ran this but want to generate default files again, use --force flag in the above command.
 
 That's it!
 
