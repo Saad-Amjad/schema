@@ -27,8 +27,8 @@ npm i angular-schema
 Go to your angular project and after installing the package run:
 
 ```bash
-ng g schema:core
-ng g schema:token
+ng g angular-schema:core
+ng g angular-schema:token
 ```
 
 That's it!
